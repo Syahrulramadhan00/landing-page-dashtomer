@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import 'primeicons/primeicons.css'
 import Hamburger from './Hamburger.vue'
 import Sidebar from './Sidebar.vue'
+import ButtonTry from './ButtonTry.vue'
 
 const sidebarOpen = ref(false)
 </script>
@@ -24,9 +25,7 @@ const sidebarOpen = ref(false)
           <button class="w-[126px] h-[60px] bg-gold rounded-lg text-main">
             Login
           </button>
-          <button class="w-[227px] h-[60px] bg-secondary rounded-lg">
-            Try Whitespace free <i class="pi pi-arrow-right px-1" style="color: white; font-size: 0.7rem;"></i>
-          </button>
+          <ButtonTry title="Try Whitespace free" />
         </div>
         <div class="flex items-center h-full half7xl:hidden">
           <Hamburger :isOpen="sidebarOpen" @toggle="sidebarOpen = !sidebarOpen" />
