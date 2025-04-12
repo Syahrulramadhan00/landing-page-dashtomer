@@ -42,7 +42,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
       <!-- Project Management Section End -->
   
       <!-- Work Together Section Start -->
-      <div class="flex flex-col-reverse md:flex-row items-center w-full h-auto md:h-[491px] gap-8">
+      <div class="flex flex-col md:flex-row items-center w-full h-auto md:h-[491px] gap-8">
         <!-- Left Image -->
         <div class="w-full h-[300px] md:h-full md:w-[50%] flex items-center justify-center overflow-hidden">
           <img
