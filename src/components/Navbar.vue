@@ -9,7 +9,7 @@ const sidebarOpen = ref(false)
 </script>
 
 <template>
-  <div class="flex items-center w-full h-[92px] bg-main relative">
+<div class="flex items-center w-full h-[92px] bg-main fixed top-0 left-0 z-50">
     <div class="flex items-center justify-between w-full 9xl:px-[220px] not-9xl:px-8 text-white">
       <div class="w-[191px] h-[34px] flex items-center justify-center shrink-0">
         <img src="/src/assets/icon.svg" class="w-full h-full object-contain" alt="" />

@@ -11,3 +11,7 @@
     --breakpoint-half7xl:1220px;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
