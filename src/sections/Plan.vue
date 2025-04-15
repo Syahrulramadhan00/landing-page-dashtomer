@@ -11,7 +11,7 @@ import { Benefits } from '@/models/Benefits'
         Choose 
         <span
           class="py-2 bg-no-repeat bg-[length:100%] bg-[bottom_right_-2rem]"
-          style="background-image: url('/src/assets/underline.svg');"
+          style="background-image: url('/public/underline.svg');"
         >
           Your Plan
         </span>

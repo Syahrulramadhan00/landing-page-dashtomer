@@ -6,7 +6,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
 <template>
     <div
       class="w-full max-md:py-32 space-y-25 min-h-[1370px] flex flex-col justify-center items-center bg-no-repeat bg-top-left bg-[length:auto] overflow-hidden bg-white"
-      style="background-image: url('/src/assets/spiral.svg');"
+      style="background-image: url('/public/spiral.svg');"
     >
       <!-- Project Management Section Start -->
       <div class="flex flex-col md:flex-row w-full h-auto md:h-[448px] items-center gap-8">
@@ -17,7 +17,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
               Project <br class="hidden md:inline"/>
               <a
                 class="py-5 md:py-7 bg-no-repeat overflow-visible bg-[length:100%] bg-[bottom_right_-2rem]"
-                style="background-image: url('/src/assets/underline.svg');"
+                style="background-image: url('/public/underline.svg');"
               >
                 Management
               </a>
@@ -46,7 +46,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
         <!-- Left Image -->
         <div class="w-full h-[300px] md:h-full md:w-[50%] flex items-center justify-center overflow-hidden">
           <img
-            src="/src/assets/work.svg"
+            src="/public/work.svg"
             class="max-w-full max-h-full object-contain"
           />
         </div>
@@ -58,7 +58,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
               Work
               <a
                 class="py-5 md:py-2 bg-no-repeat bg-[length:100%] bg-[bottom_right_-2rem]"
-                style="background-image: url('/src/assets/underline.svg');"
+                style="background-image: url('/public/underline.svg');"
               >
                 Together
               </a>

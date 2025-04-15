@@ -6,7 +6,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
 <template>
     <div
       class="w-full py-12 md:py-2 h-[656px] 9xl:h-[829px] bg-main bg-no-repeat bg-center bg-[length:auto] overflow-hidden"
-      style="background-image: url('/src/assets/dna.svg');"
+      style="background-image: url('/public/dna.svg');"
     >
       <div class="flex flex-col md:flex-row items-center w-full h-full">
         <!-- Left Content -->

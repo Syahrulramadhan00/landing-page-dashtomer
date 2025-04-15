@@ -13,7 +13,7 @@ import ButtonTry from '@/components/ButtonTry.vue';
                 Use as
                 <a
                   class="py-2 md:py-3 bg-no-repeat overflow-visible bg-[length:100%] bg-[bottom_right_-2rem]"
-                  style="background-image: url('/src/assets/mini_underline.svg');"
+                  style="background-image: url('/public/mini_underline.svg');"
                 >
                   Extension
                 </a>
