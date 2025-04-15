@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Benefits } from '@/models/Benefits';
+
 
 defineProps<{
   title: string
