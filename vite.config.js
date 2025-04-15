@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/syahrulramadhan00.github.io/',
+  base: '/',
   plugins: [
     vue(),
     tailwindcss(),
